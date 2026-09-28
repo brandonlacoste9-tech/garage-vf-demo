@@ -54,6 +54,17 @@ fr: {
   "faq.q5": "Comment puis-je vous joindre?",
   "faq.a5": "Appelez-nous au (450) 752-0813 ou écrivez à info@garagevf.com — on vous répond rapidement.",
   "contact.cta2": "Écrivez-nous",
+  "nav.products": "Produits",
+  "products.kicker": "En vente à l'atelier", "products.title": "Nos produits de confiance",
+  "products.sub": "Les mêmes produits de qualité qu'on utilise dans nos réparations — disponibles à l'achat directement au garage.",
+  "products.p1t": "Huiles et lubrifiants Gulf",
+  "products.p1d": "Lubrifiants de qualité pour votre moteur — en collaboration avec Gulf, disponibles à l'atelier.",
+  "products.p2t": "Essuie-glaces Bosch AeroTwin",
+  "products.p2d": "Toutes les dimensions pour tous les véhicules — demandez notre spécial à prix réduit.",
+  "products.p3t": "Pneus été et hiver",
+  "products.p3d": "Toutes dimensions, montage et équilibrage sur place — pour une adhérence optimale à l'année.",
+  "products.note": "Passez nous voir ou appelez pour vérifier la disponibilité d'un produit.",
+  "products.cta": "Appelez pour commander",
   "footer.tag": "Atelier de mécanique automobile · Joliette, Québec"
 },
 en: {
@@ -111,6 +122,17 @@ en: {
   "faq.q5": "How can I reach you?",
   "faq.a5": "Call us at (450) 752-0813 or email info@garagevf.com — we reply quickly.",
   "contact.cta2": "Email us",
+  "nav.products": "Products",
+  "products.kicker": "Sold at the shop", "products.title": "Our trusted products",
+  "products.sub": "The same quality products we use in our repairs — available for purchase right at the garage.",
+  "products.p1t": "Gulf oils & lubricants",
+  "products.p1d": "Quality lubricants for your engine — in collaboration with Gulf, available at the shop.",
+  "products.p2t": "Bosch AeroTwin wipers",
+  "products.p2d": "Every size for every vehicle — ask about our special reduced price.",
+  "products.p3t": "Summer & winter tires",
+  "products.p3d": "All sizes, mounting and balancing on site — for optimal grip all year.",
+  "products.note": "Stop by or call to check a product's availability.",
+  "products.cta": "Call to order",
   "footer.tag": "Auto repair shop · Joliette, Quebec"
 }};
 
