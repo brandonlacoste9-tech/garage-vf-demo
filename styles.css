@@ -162,6 +162,12 @@ footer p{margin-top:8px}
 .btn-ghost-dark{border:2px solid var(--ink);color:var(--ink);margin-top:12px}
 .btn-ghost-dark:hover{background:var(--ink);color:#fff}
 
+/* products */
+.products{background:var(--paper);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.products-sub{color:var(--muted);max-width:60ch;margin-bottom:8px}
+.products-note{margin-top:28px;text-align:center;color:var(--muted)}
+.products-cta{text-align:center;margin-top:16px}
+
 /* responsive */
 @media(max-width:900px){
   .service-grid{grid-template-columns:repeat(2,1fr)}
