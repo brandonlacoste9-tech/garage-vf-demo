@@ -20,7 +20,9 @@
     </a>
     <nav class="main-nav" id="mainNav">
       <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#gallery" data-i18n="nav.gallery">Galerie</a>
       <a href="#why" data-i18n="nav.why">Pourquoi nous</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
       <a href="#reviews" data-i18n="nav.reviews">Avis</a>
       <a href="#contact" data-i18n="nav.contact">Contact</a>
     </nav>
@@ -49,9 +51,20 @@
   </div>
 </section>
 
+<section class="promo-band">
+  <div class="wrap promo-inner">
+    <div class="promo-copy">
+      <p class="promo-kicker" data-i18n="promo.kicker">Promo saisonnière</p>
+      <h2 data-i18n="promo.title">Préparez-vous pour l'hiver</h2>
+      <p data-i18n="promo.text">Pneus d'hiver, essuie-glaces Bosch et changement d'huile — tout ce qu'il faut avant la neige, au même endroit.</p>
+    </div>
+    <a href="tel:+14507520813" class="btn btn-primary" data-i18n="promo.cta">Réservez votre place</a>
+  </div>
+</section>
+
 <section class="stats">
   <div class="stats-inner">
-    <div class="stat"><span class="stat-num" data-i18n="stats.hoursNum">Lun – Ven</span><span class="stat-label" data-i18n="stats.hours">Ouvert 7 j / 7 · 8 h – 17 h</span></div>
+    <div class="stat"><span class="stat-num" data-i18n="stats.hoursNum">Lun – Sam</span><span class="stat-label" data-i18n="stats.hours">Ouvert 6 jours sur 7</span></div>
     <div class="stat"><span class="stat-num" data-i18n="stats.makesNum">Toutes</span><span class="stat-label" data-i18n="stats.makes">marques et modèles desservis</span></div>
     <div class="stat"><span class="stat-num" data-i18n="stats.diagNum">100 %</span><span class="stat-label" data-i18n="stats.diag">diagnostic électronique</span></div>
     <div class="stat"><span class="stat-num" data-i18n="stats.quoteNum">Devis</span><span class="stat-label" data-i18n="stats.quote">clair avant chaque réparation</span></div>
@@ -97,6 +110,23 @@
   </div>
 </section>
 
+<section class="walkin">
+  <div class="wrap walkin-inner">
+    <div class="walkin-item">
+      <span class="walkin-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 12l4.5-4.5M12 12L7.5 7.5M12 12l4.5 4.5M12 12l-4.5 4.5"/></svg></span>
+      <div><strong data-i18n="walkin.w1t">Installation de pneus</strong><span data-i18n="walkin.w1d">Sans rendez-vous</span></div>
+    </div>
+    <div class="walkin-item">
+      <span class="walkin-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 11l4-6 4 6M13 13l4-6 4 6M3 17h18M5 21h14"/></svg></span>
+      <div><strong data-i18n="walkin.w2t">Changement d'huile</strong><span data-i18n="walkin.w2d">Sans rendez-vous</span></div>
+    </div>
+    <div class="walkin-item">
+      <span class="walkin-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 17h14M6 17l2-7h8l2 7M8 20v-3M16 20v-3"/></svg></span>
+      <div><strong data-i18n="walkin.w3t">Toutes marques</strong><span data-i18n="walkin.w3d">Autos, VUS, camions légers</span></div>
+    </div>
+  </div>
+</section>
+
 <section class="makes">
   <div class="wrap">
     <p class="kicker" data-i18n="makes.kicker">Toutes marques et tous modèles</p>
@@ -125,6 +155,27 @@
   </div>
 </section>
 
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <p class="kicker" data-i18n="gallery.kicker">L'atelier en action</p>
+    <h2 data-i18n="gallery.title">Un garage propre, un travail soigné</h2>
+    <div class="gallery-grid">
+      <figure>
+        <img src="images/gallery-bay.jpg" alt="Technicien effectuant une vidange d'huile">
+        <figcaption data-i18n="gallery.c1">Entretien soigné, huile Gulf de qualité</figcaption>
+      </figure>
+      <figure>
+        <img src="images/gallery-tires.jpg" alt="Pose de pneus d'hiver">
+        <figcaption data-i18n="gallery.c2">Pose de pneus d'hiver, serrage au couple</figcaption>
+      </figure>
+      <figure>
+        <img src="images/brakes.jpg" alt="Inspection du système de freinage">
+        <figcaption data-i18n="gallery.c3">Freins inspectés et remplacés avec soin</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
 <section class="reviews" id="reviews">
   <div class="wrap">
     <p class="kicker kicker-light" data-i18n="reviews.kicker">Ils en parlent</p>
@@ -135,6 +186,35 @@
         <span data-i18n="reviews.more">Voyez ce que les clients disent de nous sur Google</span>
         <span class="review-cta-arrow">→</span>
       </a>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <p class="kicker" data-i18n="faq.kicker">Bon à savoir</p>
+    <h2 data-i18n="faq.title">Questions fréquentes</h2>
+    <div class="faq-list">
+      <details open>
+        <summary data-i18n="faq.q1">Faut-il un rendez-vous pour un changement d'huile ou des pneus?</summary>
+        <p data-i18n="faq.a1">Non — les changements d'huile et les installations de pneus se font sans rendez-vous, pendant nos heures d'ouverture.</p>
+      </details>
+      <details>
+        <summary data-i18n="faq.q2">Réparez-vous toutes les marques de véhicules?</summary>
+        <p data-i18n="faq.a2">Oui — autos, VUS et camions légers de toutes marques, avec des pièces de qualité.</p>
+      </details>
+      <details>
+        <summary data-i18n="faq.q3">Comment se passe un diagnostic?</summary>
+        <p data-i18n="faq.a3">On branche votre véhicule à notre équipement de diagnostic électronique, on vous explique le problème et on confirme le prix avant de réparer.</p>
+      </details>
+      <details>
+        <summary data-i18n="faq.q4">Quelles sont vos heures d'ouverture?</summary>
+        <p data-i18n="faq.a4">Lundi au vendredi de 8 h à 17 h, samedi de 9 h à 17 h. Fermé le dimanche.</p>
+      </details>
+      <details>
+        <summary data-i18n="faq.q5">Comment puis-je vous joindre?</summary>
+        <p data-i18n="faq.a5">Appelez-nous au (450) 752-0813 ou écrivez à info@garagevf.com — on vous répond rapidement.</p>
+      </details>
     </div>
   </div>
 </section>
@@ -154,10 +234,15 @@
           <span><a href="tel:+14507520813">(450) 752-0813</a></span>
         </div>
         <div class="contact-row">
+          <span class="contact-label" data-i18n="contact.email">Courriel</span>
+          <span><a href="mailto:info@garagevf.com">info@garagevf.com</a></span>
+        </div>
+        <div class="contact-row">
           <span class="contact-label" data-i18n="contact.hours">Heures</span>
-          <span data-i18n="contact.hoursVal">Lun – Ven : 8 h 00 – 17 h 00<br>Sam – Dim : 9 h 00 – 17 h 00</span>
+          <span data-i18n="contact.hoursVal">Lun – Ven : 8 h 00 – 17 h 00<br>Sam : 9 h 00 – 17 h 00<br>Dim : fermé</span>
         </div>
         <a href="tel:+14507520813" class="btn btn-primary" data-i18n="contact.cta">Appelez pour réserver</a>
+        <a href="mailto:info@garagevf.com" class="btn btn-ghost-dark" data-i18n="contact.cta2">Écrivez-nous</a>
       </div>
       <div class="contact-map">
         <iframe title="Garage VF map" src="https://maps.google.com/maps?q=333%20Rue%20Saint-Charles-Borrom%C3%A9e%20N%2C%20Joliette%20QC&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
@@ -170,7 +255,7 @@
   <div class="wrap footer-inner">
     <span class="brand-text">Garage <strong>VF</strong></span>
     <p data-i18n="footer.tag">Atelier de mécanique automobile · Joliette, Québec</p>
-    <p class="footer-small">333 Rue Saint-Charles-Borromée N, Joliette QC · <a href="tel:+14507520813">(450) 752-0813</a></p>
+    <p class="footer-small">333 Rue Saint-Charles-Borromée N, Joliette QC · <a href="tel:+14507520813">(450) 752-0813</a> · <a href="mailto:info@garagevf.com">info@garagevf.com</a></p>
   </div>
 </footer>
 
